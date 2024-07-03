@@ -59,8 +59,8 @@ const connectToWhatsApp = async () => {
 app.get('/', (req, res) => {
   	const response = {
         success: true,
-        status: qrValue ? 'Scan QR' : 'Connected',
-        qr: qrValue
+        status: qrValue ? 'Scan QR Code!' : 'Whatsapp Connected!',
+        qrcode: qrValue
     };
 
     res.json(response);
