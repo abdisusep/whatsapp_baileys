@@ -1,6 +1,5 @@
 const {
 	default: makeWASocket,
-	isJidBroadcast,
 	useMultiFileAuthState,
 	DisconnectReason
 } = require('@whiskeysockets/baileys');
